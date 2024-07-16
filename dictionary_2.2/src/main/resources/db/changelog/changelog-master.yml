@@ -1,7 +1,0 @@
-databaseChangeLog:
-  - include:
-      file: v1.yml
-      relativeToChangelogFile: true
-  - include:
-      file: v2.yml
-      relativeToChangelogFile: true
