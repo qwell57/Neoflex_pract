@@ -14,7 +14,6 @@ import java.util.List;
 @RequestMapping("/dictionaries")
 @Tag(name = "Dictionary Controller", description = "Управление справочниками")
 public class DictionaryController {
-
     private final DictionaryService dictionaryService;
 
     @Operation(summary = "Создание справочника", description = "Создает новый справочник")
@@ -29,6 +28,4 @@ public class DictionaryController {
     public List<Dictionary> getAllDictionaries() {
         return dictionaryService.findAll();
     }
-
-
 }
