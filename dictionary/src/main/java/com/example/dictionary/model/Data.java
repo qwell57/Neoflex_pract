@@ -1,15 +1,12 @@
 package com.example.dictionary.model;
 
-
 import jakarta.persistence.*;
-
 import java.util.UUID;
 
 @lombok.Data
 @Entity
 @Table(name = "data")
 public class Data {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
